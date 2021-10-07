@@ -7,7 +7,7 @@ jobs:
      steps:
       - name: 'Ejectuar la accion del docker'
         id: hola
-        uses: ina-docker-mg/accion@v1
+        uses: mongegapper/ina-docker-mg@v1
         with:
           quien: 'Lucho'
       - name: 'Mostrar la hora obtenida'
